@@ -1,0 +1,43 @@
+.list {
+  display: grid;
+  grid-template-columns: 4.8rem 1fr auto;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 1.2rem;
+  border-radius: 7px;
+  transition: all 0.3s;
+}
+
+.list:hover {
+  background-color: #fff4e6;
+}
+
+.active  {
+  background-color: #fff4e6;
+}
+
+.list p {
+  font-size: 1.6rem;
+}
+
+.name {
+  font-size: 1.6rem;
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color:red ;
+}
+
+.equal {
+  color: rgb(73, 80, 87);
+}
